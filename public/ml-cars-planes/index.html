@@ -77,7 +77,7 @@ Version 0.9.19 <br>
 
 
     <audio preload="auto" id="mySound0" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/clap.wav"></audio>
-    <audio preload="auto" id="mySound1" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/boom.wav"></audio>
+    <audio preload="auto" id="mySound1" src="http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/explosion%2001.wav"></audio>
     <audio preload="auto" id="mySound2" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/kick.wav"></audio>
     <audio preload="auto" id="mySound3" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/openhat.wav"></audio>
     <audio preload="auto" id="mySound4" src="https://raw.githubusercontent.com/wesbos/JavaScript30/master/01%20-%20JavaScript%20Drum%20Kit/sounds/ride.wav"></audio>
@@ -261,7 +261,7 @@ const myPictureNow  = async function(){
            if (! document.getElementById('myCheckbox03lable0').checked){         
               if (i==0) { document.getElementById('mySound0').currentTime = 0; document.getElementById('mySound0').play() }
            }
-           if (i==1) { document.getElementById('mySound1').currentTime = 0; document.getElementById('mySound1').play() }
+           if (i==1) { document.getElementById('mySound1').play() }
            if (i==2) { document.getElementById('mySound2').currentTime = 0; document.getElementById('mySound2').play() }
            if (i==3) { document.getElementById('mySound3').currentTime = 0; document.getElementById('mySound3').play() }
            if (i==4) { document.getElementById('mySound4').currentTime = 0; document.getElementById('mySound4').play() }
